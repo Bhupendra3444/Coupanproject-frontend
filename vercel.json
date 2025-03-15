@@ -2,6 +2,8 @@
   "build": {
     "env": {
       "VERCEL_BUN": "1"
-    }
+    },
+    "installCommand": "bun install",
+    "buildCommand": "bun run build"
   }
 }
